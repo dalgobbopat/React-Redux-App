@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <div className='header'>
-        <h1>Quarentine Boredom</h1>
+        <h1>Quarantine Boredom</h1>
       </div>
         <Activity/>
     </div>
