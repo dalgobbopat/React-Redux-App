@@ -5,11 +5,19 @@ import Activity from './components/Activity'
 
 function App() {
   return (
+    
     <div className="App">
+      <nav>
+      <h1>Quarantine Boredom</h1>
+      </nav>
+      
       <div className='header'>
-        <h1>Quarantine Boredom</h1>
+       
       </div>
-        <Activity/>
+      <div className='body'>
+      <Activity/>
+      </div>
+        
     </div>
   );
 }
